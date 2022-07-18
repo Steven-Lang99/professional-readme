@@ -73,12 +73,15 @@ inquirer.prompt([
         name: 'test'
     },
 
-])
+]).then((data) => {
+    console.log(data);
+    const stringLiteral = generateMarkdown(data);
+    writeToFile("README.md", stringLiteral)
+})
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
-//fs.
-// TODO: Create a function to initialize app
-function init() { }
-//inquire.prompt
-// Function call to initialize app
-init();
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) throw err;
+    })
+}
+

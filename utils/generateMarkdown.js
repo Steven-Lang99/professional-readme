@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
     return "https://img.shields.io/badge/License-General--Public--License-brightgreen"
   }
   if (license === 'Mozilla Public License') {
-    return "https://img.shields.io/badge/License-Mozilla%20Public%20License-yellow"
+    return "https://img.shields.io/badge/License-Mozilla--Public--License-yellow"
   }
   if (license === 'Apache License') {
     return "https://img.shields.io/badge/License-Apache--License-orange"
@@ -90,7 +90,7 @@ function generateMarkdown(data) {
 [Credits](#credits)
 [License](#license)
 [Features](#features)
-[How to Contribute](#how to contribute)
+[Contribute](#contribute)
 [Tests](#tests)
 
 ## Installation
@@ -110,14 +110,14 @@ List of collaborators on the application:
 
 ## License
 
--${renderLicenseSection(data.license)}${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+[${renderLicenseSection(data.license)}(${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
 
 ## Features
 List of features on the applications:
 
 -${data.features}
 
-## How to Contribute
+## Contribute
 Guidelines on howt to contribute to the application:
 
 -${data.contribute}
@@ -125,7 +125,7 @@ Guidelines on howt to contribute to the application:
 ## Tests
 Instruction on how to test the application:
 
--${data.tests}
+-${data.test}
 `;
 }
 
