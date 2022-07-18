@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+//Function to return the badge of each license if chosen
 function renderLicenseBadge(license) {
   if (license === 'General Public License') {
     return "https://img.shields.io/badge/License-General--Public--License-brightgreen"
@@ -24,6 +25,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+//Function to return the license link of each license if chosen
 function renderLicenseLink(license) {
   if (license === 'General Public License') {
     return "https://choosealicense.com/licenses/gpl-3.0/"
@@ -47,6 +49,7 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+//Function to return the license section of each license if chosen
 function renderLicenseSection(license) {
   if (license === 'General Public License') {
     return "![General Public License]"
@@ -69,6 +72,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+// Function to gather the data from our questions and add them to our ReadMe
 function generateMarkdown(data) {
   return `# ${data.title}
 
