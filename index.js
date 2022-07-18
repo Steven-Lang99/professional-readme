@@ -55,11 +55,11 @@ inquirer.prompt([
         type: 'list',
         message: 'Please choose a license.',
         name: 'license',
-        choice: ['General Public License', 'Mozilla Public License', 'Apache License', 'MIT License', 'Boost Software License', 'Unlicense']
+        choices: ['General Public License', 'Mozilla Public License', 'Apache License', 'MIT License', 'Boost Software License', 'Unlicense']
     },
     {
         type: 'input',
-        message: 'Please list teh features for your project.',
+        message: 'Please list the features for your project.',
         name: 'features'
     },
     {
@@ -73,15 +73,12 @@ inquirer.prompt([
         name: 'test'
     },
 
-]).then((data) => {
-    console.log(data);
-})
-
+])
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
-
+//fs.
 // TODO: Create a function to initialize app
 function init() { }
-
+//inquire.prompt
 // Function call to initialize app
 init();
