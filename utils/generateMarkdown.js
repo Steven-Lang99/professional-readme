@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
 //Function to return the badge of each license if chosen
 function renderLicenseBadge(license) {
   if (license === 'General Public License') {
@@ -23,8 +22,7 @@ function renderLicenseBadge(license) {
 
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
 //Function to return the license link of each license if chosen
 function renderLicenseLink(license) {
   if (license === 'General Public License') {
@@ -47,8 +45,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+
 //Function to return the license section of each license if chosen
 function renderLicenseSection(license) {
   if (license === 'General Public License') {
@@ -71,7 +68,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+
 // Function to gather the data from our questions and add them to our ReadMe
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -92,6 +89,7 @@ function generateMarkdown(data) {
 [Features](#features)
 [Contribute](#contribute)
 [Tests](#tests)
+[Questions](#questions)
 
 ## Installation
 Please follow these steps to install:
@@ -126,6 +124,13 @@ Guidelines on howt to contribute to the application:
 Instruction on how to test the application:
 
 -${data.test}
+
+## Questions
+
+You can see my other projects at (https://github.com/${data.github}/).
+
+If you have any further question reach out to me at ${data.email}.
+
 `;
 }
 

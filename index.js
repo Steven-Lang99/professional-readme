@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+
 //Variables used to link the Javascript 
 const inquirer = require('inquirer');
 const fs = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown')
-// TODO: Create an array of questions for user input
+
 // Questions used to create teh ReadMe file
 inquirer.prompt([
     {
@@ -72,13 +72,23 @@ inquirer.prompt([
         message: 'How do you test your application?',
         name: 'test'
     },
+    {
+        type: 'input',
+        message: 'Please enter your GitHub user name.',
+        name: 'github'
+    },
+    {
+        type: 'input',
+        message: 'Please enter you email for any further questions.',
+        name: 'email'
+    },
 
 ]).then((data) => {
     console.log(data);
     const stringLiteral = generateMarkdown(data);
     writeToFile("README.md", stringLiteral)
 })
-// TODO: Create a function to write README file
+//Function to create the Readme file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
