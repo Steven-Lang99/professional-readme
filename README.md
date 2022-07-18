@@ -25,7 +25,7 @@ Please follow these steps to install:
 ## Usage
 Please follow the video for the usage of the application:
 
-![Video of the Application](https://watch.screencastify.com/v/1EH4I36phFyyEHDue8sk)
+[![Video of the Application](https://watch.screencastify.com/v/1EH4I36phFyyEHDue8sk)]
 
 ## Credits
 List of collaborators on the application:
