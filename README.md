@@ -1,4 +1,4 @@
-# Professional ReadMe Generator
+# Professional ReadME Generator
 
 
   ## Description
@@ -10,9 +10,9 @@
   ## Table of Contents
 
 [Installation](#installation)
+[License](#license)
 [Usage](#usage)
 [Credits](#credits)
-[License](#license)
 [Features](#features)
 [Contribute](#contribute)
 [Tests](#tests)
@@ -22,10 +22,16 @@
 Please follow these steps to install:
 -To run this application you to have node installed.
 
-## Usage
-Please follow the video for the usage of the application:
+## License
 
-![Video of the Application](https://watch.screencastify.com/v/1EH4I36phFyyEHDue8sk)
+[![MIT License](https://img.shields.io/badge/License-MIT--License-red)](https://choosealicense.com/licenses/mit/)
+
+Please click on the license to read more.
+
+## Usage
+Please follow to screenshots for the usage of the application:
+
+![alt text](assets/images/screenshot.png)
 
 ## Credits
 List of collaborators on the application:
@@ -33,17 +39,13 @@ List of collaborators on the application:
 -The main collaborator on the project is me Steven Langlois (GitHub: Steven-Lang99).
 -I did not use any third-party assets but I did research how to create specific functions to help create the application.
 
-## License
-
-[![MIT License](https://img.shields.io/badge/License-MIT--License-red)](https://choosealicense.com/licenses/mit/)
-
 ## Features
 List of features on the applications:
 
 -The main features of this project are being able to enter information that you want on your ReadMe file and having it generated with that information printed in a professional ReadMe file.
 
 ## Contribute
-Guidelines on howt to contribute to the application:
+Guidelines on how to contribute to the application:
 
 -If you want to contribute to the project please reach out to me with the contact information below.
 
@@ -56,5 +58,5 @@ Instruction on how to test the application:
 
 You can see my other projects at (https://github.com/Steven-Lang99/).
 
-If you have any further question reach out to me at langloiss0003@my.uwstout.edu.
+If you have any further question reach out to me at langloiss0003@my.uwstout.edu..
 

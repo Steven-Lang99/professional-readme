@@ -83,9 +83,9 @@ function generateMarkdown(data) {
   ## Table of Contents
 
 [Installation](#installation)
+[License](#license)
 [Usage](#usage)
 [Credits](#credits)
-[License](#license)
 [Features](#features)
 [Contribute](#contribute)
 [Tests](#tests)
@@ -94,6 +94,12 @@ function generateMarkdown(data) {
 ## Installation
 Please follow these steps to install:
 -${data.install}
+
+## License
+
+[${renderLicenseSection(data.license)}(${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
+
+Please click on the license to read more.
 
 ## Usage
 Please follow to screenshots for the usage of the application:
@@ -106,17 +112,13 @@ List of collaborators on the application:
 -${data.collaborators}
 -${data.assets}
 
-## License
-
-[${renderLicenseSection(data.license)}(${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
-
 ## Features
 List of features on the applications:
 
 -${data.features}
 
 ## Contribute
-Guidelines on howt to contribute to the application:
+Guidelines on how to contribute to the application:
 
 -${data.contribute}
 
